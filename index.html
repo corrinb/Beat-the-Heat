@@ -1,0 +1,12 @@
+<head>
+  <script src="bower_components/knockout/dist/knockout.debug.js" type="text/javascript"></script>
+  <script src="js/main.js" type="text/javascript"></script>
+</head>
+<body>
+  <div data-bind="with: currentPage">
+    <p data-bind="text: text"></p>
+    <!-- ko foreach: buttons -->
+    <button data-bind='text: $data.label, click: $parent.buttonAction'></button>
+    <!-- /ko -->
+  </div>
+</body>
