@@ -23,10 +23,12 @@
     }
   };
 
+  // When you hit the back button, go to the correct page
   window.onpopstate = function(event) {
     nav.goTo(event.state.page);
   }
 
+  // Make it global
   window.nav = nav;
 })();
 
