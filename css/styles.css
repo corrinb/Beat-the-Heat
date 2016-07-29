@@ -1,0 +1,31 @@
+.body {
+  max-width: 960px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.header h1 {
+  /*font-family: 'Crimson Text', serif;*/
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+}
+
+.illustration img {
+  max-width: 80%;
+}
+
+.buttons button {
+  font-family: 'Crimson Text', serif;
+  background: #ffb63f;
+  color: #ffffff;
+  width: 110px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 24px;
+  border: none;
+  border-radius: 10px;
+}
+
+button:nth-child(2) {
+    margin-left: 7px;
+}
